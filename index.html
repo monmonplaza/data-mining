@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Mining</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+  <div class="form">
+    <div class="form__wrapper">
+      <img src="https://overthetop.com/wp-content/themes/overthetop/img/logo.jpg" alt="">
+      <h2>Data Mining App</h2>
+      <form action="">
+        <div class="form-group error">
+          <label for="url">URL*</label>
+          <input type="text" name="url" placeholder=" https://clients.mindbodyonline.com/consumerbooking?studioid=XXXXXXX">
+          <div class="error"></div>
+        </div>
+        <div class="range__wrapper">
+            <h3>StudioID Range</h3>
+            <div class="form-group">
+              <label for="startID">From</label>
+              <input type="number" name="startID" placeholder="Starting ID">
+            </div>
+
+            <div class="form-group">
+              <label for="endID">To</label>
+              <input type="number" name="endID" placeholder="Ending ID">
+            </div>
+        </div>
+
+        <div class="loader__wrapper show">
+          <div class="loader">
+            <div class="icon">
+              <div class="loader-bar"></div>
+              <div class="loader-bar"></div>
+              <div class="loader-bar"></div>
+              <div class="loader-bar"></div>
+              <div class="loader-bar"></div>
+              <div class="loader-bar"></div>
+            </div>
+            <div class="loading">Retrieving Page...</div>
+          </div>
+        </div>
+
+
+
+        <button class="disable" disabled=true>Start Mining</button>
+        <div class="form-group process-info">
+           <p>Total Page Count: <span class="total">600000</span></p>
+          <!-- <label for="info">Output</label>
+          <textarea name="info" ></textarea> -->
+
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
