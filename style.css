@@ -1,7 +1,7 @@
 :root {
   --primary-color: #28ace3;
   --dark-color: #333333;
-  --border-color: #777777;
+  --border-color: #d8d8d8;
   --error-color: #ff0000;
 }
 
@@ -19,31 +19,28 @@ body {
   font-size: 1.6rem;
   font-family: "Raleway", sans-serif;
   color: var(--dark-color);
+  background-color: var(--border-color);
 }
 
 .form {
-  margin: 5rem 0;
   position: relative;
-  min-height: 90vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .form__wrapper {
-  /* position: absolute; */
+  background: #fff;
   margin-right: 1rem;
   margin-left: 1rem;
-  /* left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%); */
   max-width: 70rem;
   width: 100%;
   padding: 4rem;
-  border: 1px solid var(--border-color);
+  /* border: 1px solid var(--border-color); */
   text-align: center;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1); */
+  min-height: 100%;
 }
 
 .form__wrapper h2 {
@@ -55,7 +52,7 @@ form button {
   text-align: center;
   padding: 1.5rem;
   display: block;
-  margin: 4rem 0;
+  margin: 4rem 0 1rem 0;
   background-color: var(--primary-color);
   border: none;
   color: #fff;
@@ -139,7 +136,7 @@ form button:hover {
 
 .process-info p {
   position: absolute;
-  top: 0rem;
+  top: 3rem;
   left: 50%;
   transform: translateX(-50%);
   font-weight: bold;
