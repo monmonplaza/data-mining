@@ -65,7 +65,7 @@ form button {
   border: none;
 }
 
-.form button.disable {
+.form button.btn-disable {
   cursor: not-allowed;
   background-color: #9fd6ec;
 }
@@ -78,7 +78,7 @@ form button:hover {
   position: relative;
 }
 
-.form-group.error .error-msg {
+.form-group .error-msg {
   position: absolute;
   top: 1rem;
   right: 0;
@@ -86,14 +86,14 @@ form button:hover {
   font-size: 1.2rem;
 }
 
-.form-group.error .require_icon {
+.form-group .require_icon {
   color: var(--error-color);
   padding-left: 0.2rem;
   font-size: 2.3rem;
   line-height: 1;
 }
 
-.form-group.error input {
+.form-group input.error-border {
   border: 1px solid var(--error-color);
   background-color: #ecb7b7;
 }
