@@ -127,19 +127,34 @@ form button:hover {
 }
 
 .range__wrapper h3 {
-  margin: 3rem 0 1rem 0;
+  margin: 3rem 0 2rem 0;
+  text-align: left;
 }
 
 .process-info {
   position: relative;
+  width: 100%;
+}
+.process-info ul {
+  position: absolute;
+  top: 5rem;
+  left: 0.5rem;
+  list-style: none;
+  width: 95%;
 }
 
-.process-info p {
-  position: absolute;
-  top: 3rem;
-  left: 50%;
-  transform: translateX(-50%);
-  font-weight: bold;
+.process-info ul li {
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.process-info ul li button {
+  border: none;
+  background-color: transparent;
+  color: var(--primary-color);
+  padding-left: 1rem;
 }
 
 /* Loader */
