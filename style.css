@@ -217,7 +217,9 @@ form button:hover {
 }
 
 /* monmon 12-22 */
-
+.modal.show {
+  display: flex;
+}
 .modal {
   position: fixed;
   top: 0;
@@ -228,6 +230,7 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 .modal__wrapper {
