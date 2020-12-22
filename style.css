@@ -155,6 +155,15 @@ form button:hover {
   background-color: transparent;
   color: var(--primary-color);
   padding-left: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.process-info ul li span:nth-of-type(2) {
+  font-weight: bold;
+}
+.process-info ul li button:hover {
+  color: #0b678f;
 }
 
 /* Loader */
