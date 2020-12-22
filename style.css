@@ -150,7 +150,7 @@ form button:hover {
   margin-bottom: 2rem;
 }
 
-.process-info ul li button {
+.process-info ul li a {
   border: none;
   background-color: transparent;
   color: var(--primary-color);
