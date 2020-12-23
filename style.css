@@ -20,6 +20,7 @@ body {
   font-family: "Raleway", sans-serif;
   color: var(--dark-color);
   background-color: var(--border-color);
+  line-height: 1.4;
 }
 
 .form {
@@ -259,9 +260,13 @@ form button:hover {
 
 .modal__wrapper {
   max-width: 350px;
+  width: 350px;
   background-color: #fff;
-  height: 250px;
+  min-height: 250px;
   padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .modal__wrapper h3 {
